@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.0.1/chart.min.js" integrity="sha512-tQYZBKe34uzoeOjY9jr3MX7R/mo7n25vnqbnrkskGr4D6YOoPYSpyafUAzQVjV6xAozAqUFIEFsCO4z8mnVBXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Servidor - SouthBike</title>
+</head>
+<body>
+
+    <header id="header-box">
+        <div class="logoOne">
+        <a href="#"><img src="./img/southbike.png" alt="Logo SouthBike"></a>  
+        </div>
+    </header>
+
+    <div id="mobile">
+        <div class="iconFisrt">
+            <i class="fas fa-th-list"></i>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Lucro</li>
+                <li>Vendas</li>
+                <li>PDF</li>
+                <li>NFs</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="chart">
+        <canvas id="myChart">
+            <!-- chartjs -->
+        </canvas>
+        <canvas id="Chart">
+            <!-- chartjs -->
+        </canvas>
+    </div>
+    <script src="chart.js"></script>
+</body>
+</html>
